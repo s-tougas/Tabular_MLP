@@ -179,3 +179,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# Project-specific: raw data and experiment artifacts
+data/*.csv
+
+# Keep only the promoted production model 
+#Ignores individual experiment runs
+artifacts/*
+!artifacts/production/
+!artifacts/production/**

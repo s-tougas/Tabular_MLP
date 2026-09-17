@@ -1,0 +1,12 @@
+{
+  "run_id": "20260909_170759",
+  "nn_rmse": 25162.35283116426,
+  "xgb_rmse": 29030.60233615555,
+  "winner": "neural_net",
+  "learning_rate": 0.0005,
+  "epochs": 30,
+  "hidden_dims": [
+    128,
+    64
+  ]
+}
